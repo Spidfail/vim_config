@@ -4,7 +4,7 @@ Git to store and share my own config. It's simple but effective.
 
 ## To install it :
 
-If you don't have Vim installed, check the [Vim website] (https://www.vim.org/download.php) to install it.
+If you don't have Vim installed, check the [Vim website](https://www.vim.org/download.php) to install it.
 
 For Macos users, I recommend you to use the package manager [brew](https://brew.sh/index_fr) for programs like this (neovim, llvm, python, etc.).
 
@@ -18,6 +18,8 @@ Then, run the following **inside** the git directory :
 Sources are copied from there to your `$HOME`/`~` directory, where your `.vimrc` config file and `.vim` plugin directory should be.
 
 > Your old config (if there is one) is renamed by adding the extension `.old` and remain in the `$HOME` directory.
+
+To use the syntax analyser with c/c++ code, you need to have [clangd](https://clangd.llvm.org/installation.html) installed and available in your `$PATH`.
 
 ## Things to know :
 
