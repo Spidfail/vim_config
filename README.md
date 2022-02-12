@@ -19,6 +19,8 @@ Sources are copied from there to your `$HOME`/`~` directory, where your `.vimrc`
 
 > Your old config (if there is one) is renamed by adding the extension `.old` and remain in the `$HOME` directory.
 
+To use the syntax analyser with c/c++ code, you need to have [clangd](https://clangd.llvm.org/installation.html) installed and available in your `$PATH`.
+
 ## Things to know :
 
 This configuration uses [vim plug](https://github.com/junegunn/vim-plug), a freaking easy-to-use plugin manager.
