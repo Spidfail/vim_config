@@ -4,7 +4,7 @@ Git to store and share my own config. It's simple but effective.
 
 ## To install it :
 
-If you don't have Vim installed, check the [Vim website] (https://www.vim.org/download.php) to install it.
+If you don't have Vim installed, check the [Vim website](https://www.vim.org/download.php) to install it.
 
 For Macos users, I recommend you to use the package manager [brew](https://brew.sh/index_fr) for programs like this (neovim, llvm, python, etc.).
 
@@ -49,7 +49,7 @@ Check vim plug website for more or trigger tab completion after typing `:Plug` !
 
 ### And to change the colorscheme only ?
 
-Install the scheme plugin (for example `tokyonight.vim` or `nord-vim`) and replace `gruvbox` by his name at the line where `colorscheme` is called.
+Install the scheme plugin (for example [tokyonight.vim](https://github.com/ghifarit53/tokyonight-vim) or [nord-vim](https://github.com/arcticicestudio/nord-vim)) and replace `gruvbox` by his name at the line where `colorscheme` is called.
 
 I personnaly use tokyonight quite often.
 
@@ -57,7 +57,9 @@ I personnaly use tokyonight quite often.
 
 You also can install incone's scheme for your NERDTree.
 
-Try to insall and use [FZF](https://github.com/junegunn/fzf) or *Fuzzy finder*. This is a blazzing faster finder with many options. It can be used inside and outside of Vim, for example in your terminal.
+You can open a terminal in vim by typing `:term`.
+
+Try to insall and use [FZF](https://github.com/junegunn/fzf) or *Fuzzy finder*. This is a blazzing faste finder with many options. It can be used inside and outside of Vim, for example in your terminal.
 
 Good luck with Vim,
 
