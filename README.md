@@ -10,25 +10,26 @@ For Macos users, I recommend you to use the package manager [brew](https://brew.
 
 Then, run the following **inside** the git directory :
 ```
-[ -d "~/.vim" ] && mv ~/.vim ~/.vim.old ; cp -R ./.vim ~/
+rm -Rf ~/.vim
 [ -e "~/.vimrc" ] && mv ~/.vimrc ~/.vimrc.old ; cp ./.vimrc ~/
 ```
 > Theses commands should not work if you have a different config's files management.
 
-Sources are copied from there to your `$HOME`/`~` directory, where your `.vimrc` config file and `.vim` plugin directory should be.
-
+Sources are copied from there to your `$HOME`/`~` directory, where your `.vimrc` config file. It automatically erase previous `.vim`.
 > Your old config (if there is one) is renamed by adding the extension `.old` and remain in the `$HOME` directory.
+> Your plugins and settings will be automatically installed when you'll start vim.
 
-To use the syntax analyser with c/c++ code, you need to have [clangd](https://clangd.llvm.org/installation.html) installed and available in your `$PATH`.
+***Your Vim is now ready to use.***
 
 ## Things to know :
 
 This configuration uses [vim plug](https://github.com/junegunn/vim-plug), a freaking easy-to-use plugin manager.
 
+To use the syntax analyser with c/c++ code, you need to have [clangd](https://clangd.llvm.org/installation.html) installed and available in your `$PATH`.
+
 ### Configuration of Vim fonctionnalities
 
-The **syntax** colorscheme is on and you can use your mouse. I have my proper intendation and tabulation management. The **indentation** is symbolized by `|\\\` character.
-
+The **syntax** colorscheme is on, with ***gruvbox*** by default. You can use your mouse. I have my proper intendation and tabulation management. The **indentation** is symbolized by `|\\\` character.   
 If you are in insert mode to type text (`I`, `i`, `A`, `a` and more), the line's number order changes to be in *relative numbers* order. It helps count lines from a particular point.
 
 ### List of plugins
@@ -43,17 +44,29 @@ In it, you can open a file in current window with the key `o`, or `i`/`s` in hor
 
 ### To manage your plugins
 
-To install a plugin, add `Plug '[creator]/[project-name]'` between `call plug#begin()` and `call plug#end()`. Then, run `:PlugInstall` when vim is open.
+To install a plugin, add `Plug '[creator]/[project-name]'` between `call plug#begin()` and `call plug#end()`.
 
-To erase it, remove the line where the plugin name is written from `.vimrc` and run `:PlugClean`.
+Check the **List of usefull commands** or the vim plug website for more nor trigger tab completion after typing `:Plug` !
 
-Check vim plug website for more or trigger tab completion after typing `:Plug` !
+### List of usefull commands :
+
+> These commands are meant to be run in a Vim session.
+> These are took from [vim-plug's git page](https://github.com/junegunn/vim-plug#commands).
+
+| Command                             | Description                                                        |
+| ----------------------------------- | ------------------------------------------------------------------ |
+| `:PlugInstall [name ...] [#threads]` | Install plugins                                                    |
+| `:PlugUpdate [name ...] [#threads]`  | Install or update plugins                                          |
+| `:PlugClean[!]`                      | Remove unlisted plugins (bang version will clean without prompt) |
+| `:PlugUpgrade`                       | Upgrade vim-plug itself                                            |
+| `:PlugStatus`                        | Check the status of plugins                                        |
+| `:PlugDiff`                          | Examine changes from the previous update and the pending changes   |
+| `:PlugSnapshot[!] [output path]`     | Generate script for restoring the current snapshot of the plugins  |
+
 
 ### And to change the colorscheme only ?
 
-Install the scheme plugin (for example [tokyonight.vim](https://github.com/ghifarit53/tokyonight-vim) or [nord-vim](https://github.com/arcticicestudio/nord-vim)) and replace `gruvbox` by his name at the line where `colorscheme` is called.
-
-I personnaly use tokyonight quite often.
+Install the scheme plugin (for example [tokyonight.vim](https://github.com/ghifarit53/tokyonight-vim) or [nord-vim](https://github.com/arcticicestudio/nord-vim)) and replace `gruvbox` by his name at the line where `colorscheme` is called. I personnaly use tokyonight quite often.
 
 ### Any advice ?
 
