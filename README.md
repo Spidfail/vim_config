@@ -35,10 +35,9 @@ If you are in insert mode to type text (`I`, `i`, `A`, `a` and more), the line's
 
 ### List of plugins
 
-- [gruvbox](https://github.com/morhetz/gruvbox) : colorscheme to change the old vim look
+- [gruvbox](https://github.com/morhetz/gruvbox) : colorscheme to change the old vim look.
 - [vim-airline](https://github.com/vim-airline/vim-airline) : gives a nice look to the line bar, it helps you while coding too.
-- [nerdtree](https://github.com/preservim/nerdtree) : a nice file system explorer. Use `Ctrl-t` / `Ctrl-n` to open or close it, or `Ctrl-f` to trigger the find system.
-In it, you can open a file in current window with the key `o`, or `i`/`s` in horizontal/vertical split mode.
+- [nerdtree](https://github.com/preservim/nerdtree) : a nice file system explorer. Check bellow for the shortcuts part.
 - [syntastic](https://github.com/vim-syntastic/syntastic) : a synthax checker for c/c++ at this time.
 - [vim-gitgutter](https://github.com/airblade/vim-gitgutter) : 'A Vim plugin which shows a git diff in the sign column.' What else ?
 - [vim-startify](https://github.com/mhinz/vim-startify) : run `vim` with no arguments and you'll see.
@@ -63,6 +62,7 @@ To manage **NERDTree** :
 | `Ctrl - f`                       | To find something in the tree.                          |
 | `o`                              | Opend a file or expand a directory.                     |
 | `s`                              | Open a file in a vertical split. Equal to `:vsp` cmd.   |
+| `i`                              | Open a file in a horizontal split. Equal to `:sp` cmd.  |
 | `Shift - u`                      | Set the focus up the current directory.                 |
 | `?`                              | `:help` for more usefull shortcuts !                    |
 
