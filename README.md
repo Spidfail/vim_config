@@ -1,6 +1,7 @@
 # vim_config
 
-Git to store and share my own config. It's simple but effective.
+A little repository to store and share my own config. It stays simple but it's effective.
+
 
 ## To install it :
 
@@ -20,6 +21,8 @@ if [ -f ~/.vimrc ]; then mv ~/.vimrc ~/.vimrc.old ; fi ; cp ./.vimrc ~/
 Your plugins and settings will be automatically installed when you'll start vim. Just wait few seconds after vim opened up.
 
 ***Your Vim is now ready to use.***
+
+
 
 ## Things to know :
 
@@ -42,13 +45,34 @@ If you are in insert mode to type text (`I`, `i`, `A`, `a` and more), the line's
 - [vim-gitgutter](https://github.com/airblade/vim-gitgutter) : 'A Vim plugin which shows a git diff in the sign column.' What else ?
 - [vim-startify](https://github.com/mhinz/vim-startify) : run `vim` with no arguments and you'll see.
 
+
+
 ## To manage your Vim and his plugins :
 
 To install a plugin, add `Plug '[creator]/[project-name]'` between `call plug#begin()` and `call plug#end()`.
 
-Check the **List of usefull commands** or the vim plug website for more nor trigger tab completion after typing `:Plug` !
+Check the below (*List of usefull commands*), or the vim plug website for more, nor trigger tab completion after typing `:Plug` !
 
-### List of usefull commands and shortcuts
+### And to change the colorscheme only ?
+
+*Install the scheme plugin* with the instructions above, for example [tokyonight.vim](https://github.com/ghifarit53/tokyonight-vim) or [nord-vim](https://github.com/arcticicestudio/nord-vim).
+
+Then, replace this line	: `colorscheme gruvbox`   
+By this line			: `colorscheme [your scheme]`
+ 
+I personnaly use tokyonight quite often.
+
+### Any advice ?
+
+- You can open a terminal in vim by typing `:term`.
+
+- You also can install incon's scheme for your NERDTree : check [vim-devicons](https://github.com/ryanoasis/vim-devicons) for more.
+
+- Try to insall and use [FZF](https://github.com/junegunn/fzf) or *Fuzzy finder*. This is a blazzing faste finder with many options. It can be used inside and outside of Vim, for example in your terminal.
+
+
+
+## List of usefull commands and shortcuts :
 
 These commands are meant to be run in a Vim session.
 
@@ -92,22 +116,6 @@ To manage **Git-gutter** :
 
 > for more, check the [git-gutter's](https://github.com/airblade/vim-gitgutter#getting-started) git.
 
-### And to change the colorscheme only ?
-
-*Install the scheme plugin* with the instructions above, for example [tokyonight.vim](https://github.com/ghifarit53/tokyonight-vim) or [nord-vim](https://github.com/arcticicestudio/nord-vim).
-
-Then, replace this line	: `colorscheme gruvbox`   
-By this line			: `colorscheme [your scheme]`
- 
-I personnaly use tokyonight quite often.
-
-### Any advice ?
-
-- You can open a terminal in vim by typing `:term`.
-
-- You also can install incon's scheme for your NERDTree : check [vim-devicons](https://github.com/ryanoasis/vim-devicons) for more.
-
-- Try to insall and use [FZF](https://github.com/junegunn/fzf) or *Fuzzy finder*. This is a blazzing faste finder with many options. It can be used inside and outside of Vim, for example in your terminal.
 
 Good luck with Vim,   
 Don't forget to learn his power step by step not all at once.
