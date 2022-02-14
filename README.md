@@ -14,8 +14,7 @@ rm -Rf ~/.vim
 if [ -f ~/.vimrc ]; then mv ~/.vimrc ~/.vimrc.old ; fi ; cp ./.vimrc ~/
 ```
 > Theses commands should not work if you have a different config's files management.
-
-Sources are copied from there to your `$HOME`/`~` directory, where your `.vimrc` config file. It automatically erase previous `.vim`.
+> Sources are copied from there to your `$HOME`/`~` directory, where your `.vimrc` config file. It automatically erase previous `.vim`.
 > Your old config (if there is one) is renamed by adding the extension `.old` and remain in the `$HOME` directory.
 
 Your plugins and settings will be automatically installed when you'll start vim. Just wait few seconds after vim opened up.
@@ -30,7 +29,8 @@ To use the syntax analyser with c/c++ code, you need to have [clangd](https://cl
 
 ### Configuration of Vim fonctionnalities
 
-The **syntax** colorscheme is on, with ***gruvbox*** by default. You can use your mouse. I have my proper intendation and tabulation management. The **indentation** is symbolized by `|\\\` character.   
+The **syntax** colorscheme is on, with ***gruvbox*** by default. You can use your mouse.   
+I have my proper intendation and tabulation management. The **indentation** is symbolized by `|\\\` character.   
 If you are in insert mode to type text (`I`, `i`, `A`, `a` and more), the line's number order changes to be in *relative numbers* order. It helps count lines from a particular point.
 
 ### List of plugins
@@ -57,7 +57,7 @@ To manage **NERDTree** :
 
 | Shortcut                         | Description                                             |
 | -------------------------------- | ------------------------------------------------------- |
-| `Ctrl - [direction]`             | To switch between windows, change focus.                |
+| `Ctrl - w + [direction]`         | To switch between windows, change focus.                |
 | `Ctrl - t`                       | To open or close the tree. `q` works too.               |
 | `Ctrl - n`                       | To refresh the tree. It open it too.                    |
 | `Ctrl - f`                       | To find something in the tree.                          |
@@ -83,8 +83,7 @@ To manage **Vim-Plug** (plugin manager) :
 
 ### And to change the colorscheme only ?
 
-*Install the scheme plugin* with the instructions above.
-> for example [tokyonight.vim](https://github.com/ghifarit53/tokyonight-vim) or [nord-vim](https://github.com/arcticicestudio/nord-vim).
+*Install the scheme plugin* with the instructions above, for example [tokyonight.vim](https://github.com/ghifarit53/tokyonight-vim) or [nord-vim](https://github.com/arcticicestudio/nord-vim).
 
 Then, replace this line	: `colorscheme gruvbox`   
 By this line			: `colorscheme [your scheme]`
@@ -93,11 +92,11 @@ I personnaly use tokyonight quite often.
 
 ### Any advice ?
 
-You can open a terminal in vim by typing `:term`.
+- You can open a terminal in vim by typing `:term`.
 
-You also can install incon's scheme for your NERDTree : check [vim-devicons](https://github.com/ryanoasis/vim-devicons) for more.
+- You also can install incon's scheme for your NERDTree : check [vim-devicons](https://github.com/ryanoasis/vim-devicons) for more.
 
-Try to insall and use [FZF](https://github.com/junegunn/fzf) or *Fuzzy finder*. This is a blazzing faste finder with many options. It can be used inside and outside of Vim, for example in your terminal.
+- Try to insall and use [FZF](https://github.com/junegunn/fzf) or *Fuzzy finder*. This is a blazzing faste finder with many options. It can be used inside and outside of Vim, for example in your terminal.
 
 Good luck with Vim,   
 Don't forget to learn his power step by step not all at once.
