@@ -68,7 +68,7 @@ Check the **List of usefull commands** or the vim plug website for more nor trig
 ### And to change the colorscheme only ?
 
 *Install the scheme plugin* with the instructions above.
-> for example [tokyonight.vim](https://github.com/ghifarit53/tokyonight-vim) or [nord-vim](https://github.com/arcticicestudio/nord-vim)).
+> for example [tokyonight.vim](https://github.com/ghifarit53/tokyonight-vim) or [nord-vim](https://github.com/arcticicestudio/nord-vim).
 
 Then, replace this line	: `colorscheme gruvbox`   
 By this line			: `colorscheme [your scheme]`
@@ -77,12 +77,11 @@ I personnaly use tokyonight quite often.
 
 ### Any advice ?
 
-You also can install incone's scheme for your NERDTree.
-
 You can open a terminal in vim by typing `:term`.
+
+You also can install incon's scheme for your NERDTree : check [vim-devicons](https://github.com/ryanoasis/vim-devicons) for more.
 
 Try to insall and use [FZF](https://github.com/junegunn/fzf) or *Fuzzy finder*. This is a blazzing faste finder with many options. It can be used inside and outside of Vim, for example in your terminal.
 
-Good luck with Vim,
-
+Good luck with Vim,   
 Don't forget to learn his power step by step not all at once.
