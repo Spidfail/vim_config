@@ -11,13 +11,14 @@ For Macos users, I recommend you to use the package manager [brew](https://brew.
 Then, run the following **inside** the git directory :
 ```
 rm -Rf ~/.vim
-[ -e "~/.vimrc" ] && mv ~/.vimrc ~/.vimrc.old ; cp ./.vimrc ~/
+if [ -f ~/.vimrc ]; then mv ~/.vimrc ~/.vimrc.old ; fi ; cp ./.vimrc ~/
 ```
 > Theses commands should not work if you have a different config's files management.
 
 Sources are copied from there to your `$HOME`/`~` directory, where your `.vimrc` config file. It automatically erase previous `.vim`.
 > Your old config (if there is one) is renamed by adding the extension `.old` and remain in the `$HOME` directory.
-> Your plugins and settings will be automatically installed when you'll start vim.
+
+Your plugins and settings will be automatically installed when you'll start vim. Just wait few seconds after vim opened up.
 
 ***Your Vim is now ready to use.***
 
