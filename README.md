@@ -79,8 +79,18 @@ To manage **Vim-Plug** (plugin manager) :
 | `:PlugDiff`                          | Examine changes from the previous update and the pending changes   |
 | `:PlugSnapshot[!] [output path]`     | Generate script for restoring the current snapshot of the plugins  |
 
-> These are took from [vim-plug's git page](https://github.com/junegunn/vim-plug#commands) :
+> These are took from [vim-plug's git page](https://github.com/junegunn/vim-plug#commands)
 
+To manage **Git-gutter** :
+
+| Command                             | Description                                                        |
+| ----------------------------------- | ------------------------------------------------------------------ |
+| `:GitGutterEnable`                  |  Manually launch git gutter.                                       |
+| `:GitGutterDisable`                 |  Manually disable git gutter.                                      |
+| `:GitGutterFold`                    |  To fold/unfold all unchanged lines from other commit.             |
+| `[c` or `]c`                        |  To jump between hunks (change).                                   |
+
+> for more, check the [git-gutter's](https://github.com/airblade/vim-gitgutter#getting-started) git.
 
 ### And to change the colorscheme only ?
 
