@@ -51,7 +51,7 @@ Check the **List of usefull commands** or the vim plug website for more nor trig
 
 ### List of usefull commands and shortcuts
 
-> These commands are meant to be run in a Vim session.
+These commands are meant to be run in a Vim session.
 
 To manage **NERDTree** :
 
@@ -66,9 +66,8 @@ To manage **NERDTree** :
 | `Shift - u`                      | Set the focus up the current directory.                 |
 | `?`                              | `:help` for more usefull shortcuts !                    |
 
-To manage **Vim-Plug** (plugin manager) :
 
-> These are took from [vim-plug's git page](https://github.com/junegunn/vim-plug#commands) :
+To manage **Vim-Plug** (plugin manager) :
 
 | Command                             | Description                                                        |
 | ----------------------------------- | ------------------------------------------------------------------ |
@@ -79,6 +78,8 @@ To manage **Vim-Plug** (plugin manager) :
 | `:PlugStatus`                        | Check the status of plugins                                        |
 | `:PlugDiff`                          | Examine changes from the previous update and the pending changes   |
 | `:PlugSnapshot[!] [output path]`     | Generate script for restoring the current snapshot of the plugins  |
+
+> These are took from [vim-plug's git page](https://github.com/junegunn/vim-plug#commands) :
 
 
 ### And to change the colorscheme only ?
