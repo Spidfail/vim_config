@@ -83,7 +83,7 @@ To manage **Vim-Plug** (plugin manager) :
 
 To manage **Git-gutter** :
 
-| Command                             | Description                                                        |
+| Command - Shortcut                  | Description                                                        |
 | ----------------------------------- | ------------------------------------------------------------------ |
 | `:GitGutterEnable`                  |  Manually launch git gutter.                                       |
 | `:GitGutterDisable`                 |  Manually disable git gutter.                                      |
