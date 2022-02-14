@@ -43,16 +43,32 @@ In it, you can open a file in current window with the key `o`, or `i`/`s` in hor
 - [vim-gitgutter](https://github.com/airblade/vim-gitgutter) : 'A Vim plugin which shows a git diff in the sign column.' What else ?
 - [vim-startify](https://github.com/mhinz/vim-startify) : run `vim` with no arguments and you'll see.
 
-### To manage your plugins
+## To manage your Vim and his plugins :
 
 To install a plugin, add `Plug '[creator]/[project-name]'` between `call plug#begin()` and `call plug#end()`.
 
 Check the **List of usefull commands** or the vim plug website for more nor trigger tab completion after typing `:Plug` !
 
-### List of usefull commands :
+### List of usefull commands and shortcuts
 
 > These commands are meant to be run in a Vim session.
-> These are took from [vim-plug's git page](https://github.com/junegunn/vim-plug#commands).
+
+To manage **NERDTree** :
+
+| Shortcut                         | Description                                             |
+| -------------------------------- | ------------------------------------------------------- |
+| `Ctrl - [direction]`             | To switch between windows, change focus.                |
+| `Ctrl - t`                       | To open or close the tree. `q` works too.               |
+| `Ctrl - n`                       | To refresh the tree. It open it too.                    |
+| `Ctrl - f`                       | To find something in the tree.                          |
+| `o`                              | Opend a file or expand a directory.                     |
+| `s`                              | Open a file in a vertical split. Equal to `:vsp` cmd.   |
+| `Shift - u`                      | Set the focus up the current directory.                 |
+| `?`                              | `:help` for more usefull shortcuts !                    |
+
+To manage **Vim-Plug** (plugin manager) :
+
+> These are took from [vim-plug's git page](https://github.com/junegunn/vim-plug#commands) :
 
 | Command                             | Description                                                        |
 | ----------------------------------- | ------------------------------------------------------------------ |
