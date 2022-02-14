@@ -67,7 +67,13 @@ Check the **List of usefull commands** or the vim plug website for more nor trig
 
 ### And to change the colorscheme only ?
 
-Install the scheme plugin (for example [tokyonight.vim](https://github.com/ghifarit53/tokyonight-vim) or [nord-vim](https://github.com/arcticicestudio/nord-vim)) and replace `gruvbox` by his name at the line where `colorscheme` is called. I personnaly use tokyonight quite often.
+*Install the scheme plugin* with the instructions above.
+> for example [tokyonight.vim](https://github.com/ghifarit53/tokyonight-vim) or [nord-vim](https://github.com/arcticicestudio/nord-vim)).
+
+Then, replace this line	: `colorscheme gruvbox`   
+By this line			: `colorscheme [your scheme]`
+ 
+I personnaly use tokyonight quite often.
 
 ### Any advice ?
 
